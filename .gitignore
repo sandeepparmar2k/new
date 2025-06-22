@@ -1,1 +1,9 @@
-testing.tf  
+testing.tf
+terraform.exe
+.terraform/*
+provider.tf
+.gitignore
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info

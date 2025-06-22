@@ -1,8 +1,9 @@
 module "resource_group_module" {
   source = "./modules/resource-group"
-  rg_name = "rg_main"
+  rg_name = "rg_main1"
   location = "East US"
 }
+
 module "storage_account_module" {
   source = "./modules/storage-account"
   resource_group_name = module.resource_group_module.name
